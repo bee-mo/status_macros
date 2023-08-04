@@ -1,2 +1,4 @@
 bazel-*
-
+build
+compile_commands.json
+.cache
