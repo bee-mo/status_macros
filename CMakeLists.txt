@@ -32,6 +32,8 @@ target_link_libraries(
   
   PRIVATE
   absl::core_headers
+  absl::status
+  absl::statusor
 )
 set_target_properties(absl_ext_status_macros PROPERTIES LINKER_LANGUAGE CXX)
 
